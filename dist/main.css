@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+Body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: 200px;
+    background-color:#54b8aa ;
+    /* background-color: #ffecd2; */
+    background-image: url("./462547463_921760000055013_6007905681114279881_n-removebg-preview.png");
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-top: 150px;
+    background-color: #ffecd2;
+    width: 700px;
+    height: 500px;
+}
+.taso{
+    font-family: "Mogra", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    color: #236159;
+    text-shadow: 3px 2px 5px #54b8aa;
+    
+}
+
+.container h1{
+    font-family: "Mogra", system-ui;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #173d37;
+    text-shadow: 3px 2px 5px #54b8aa;
+    
+}
+
+.question{
+    font-family: "Bowlby One", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(192, 127, 253);
+}
+
+.samestyle{
+    font-family: "Bowlby One", sans-serif;
+    border: solid 6px rgb(255, 0, 43);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #f8b9b2;
+    color: rgb(255, 0, 0);
+    width: 200px;
+    height: 50px;
+}
+
+.yes:hover{
+    transition:1s;
+    border-color: pink;
+    background: rgb(255, 41, 41);
+    color: pink;
+}
+.no:hover{
+    
+    transition:1s;
+    border-color: pink;
+    background: rgb(255, 41, 41);
+    color: pink;
+}
+
+.moveno{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.sadspiderman{
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    width: 280px;
+    height: 300px;
+}
+
+.moveno1{
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+}
+.displaynone{
+    display: none;
+}
+
+.plss{
+    top: 10%;
+    right: 5%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.spongebob{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+}
+
+.moveno3{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+
+.moveno4{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.hamster{
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+    width: 250px;
+    height: 250px;
+}
+
+.spidermun{
+    position: absolute;
+    top: 1%;
+    right: 56%;
+    width: 270px;
+    height: 300px;
+}
+.moveno6{
+    position: absolute;
+    bottom: 10%;
+    left: 24%;
+}
+.moveno5{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.sademote{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 240px;
+    height:200px;
+}
+
+
+
+
+
